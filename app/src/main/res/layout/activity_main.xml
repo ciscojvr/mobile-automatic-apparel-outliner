@@ -11,27 +11,51 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/textView_instruction"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/upload_your_fashion_item" />
-
-        <ImageView
-            android:id="@+id/imageView_fashionItem"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:contentDescription="@string/image_containing_a_fashion_item"
-            tools:srcCompat="@tools:sample/avatars" />
-
         <Button
             android:id="@+id/button_upload"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/upload_image" />
+
+        <TextView
+            android:id="@+id/textView_fashionImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Original Fashion Image" />
+
+        <ImageView
+            android:id="@+id/imageView_fashionImage"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_gravity="center"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/textView_segmentedImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Segmented Image" />
+
+        <ImageView
+            android:id="@+id/imageView_segmentedImage"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_gravity="center"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/textView_outlinedImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Outlined Image" />
+
+        <ImageView
+            android:id="@+id/imageView_outlinedImage"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_gravity="center"
+            tools:srcCompat="@tools:sample/avatars" />
 
     </LinearLayout>
 
